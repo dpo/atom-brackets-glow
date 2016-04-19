@@ -1,0 +1,17 @@
+{
+  "name": "atom-brackets-glow",
+  "version": "0.0.0",
+  "description": "Brackets highlighting with a glow",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-brackets-glow:toggle"
+  },
+  "repository": "https://github.com/dpo/atom-brackets-glow.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,19 @@
+@import 'syntax-variables';
+
+@bright-color: fade(gray, 80%);
+@dim-color: fade(gray, 40%);
+
+@keyframes glow {
+  to {
+    background: @dim-color;
+    box-shadow: 0 0 16px 2px @dim-color;
+  }
+}
+
+atom-text-editor::shadow .bracket-matcher .region {
+  background: @bright-color;
+  box-shadow: 0 0 0 2px @bright-color;
+  border-radius: 64px;
+  padding: 4px 4px 13px 4px;
+  animation: glow 1.5s steps(10, start) infinite alternate;
+}
